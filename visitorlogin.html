@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Login</title>
+    <link rel="stylesheet" href="CSS/visitorlogin.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">Jagrut Seva Kendra</div>
+        <button class="mobile-menu-button">&#9776;</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+        </ul>
+    </nav>
+
+    <!-- Login Form -->
+    <section class="login-section">
+        <h1>Visitor Login</h1>
+        <form id="visitorLoginForm">
+            <label for="visitorName">Name:</label>
+            <input type="text" id="visitorName" name="visitorName" required>
+
+            <label for="visitorNumber">Phone Number:</label>
+            <input type="tel" id="visitorNumber" name="visitorNumber" required>
+
+            <label for="patientId">Patient ID:</label>
+            <input type="text" id="patientId" name="patientId" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <script src="Script/visitorlogin.js"></script>
+</body>
+</html>
